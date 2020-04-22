@@ -1,0 +1,144 @@
+:root {
+    --dark-bg-color: #1e1d23;
+}
+
+@font-face {
+	font-family: "Brush Script MT";
+	src: url(../fonts/Brush-Script-MT.otf);
+}
+
+.padding {
+    padding: 5px 0px 10px 0px;
+}
+
+.dark {
+	background-color: var(--dark-bg-color);
+	color: white;
+}
+
+.dark a {
+	color: lightgray;
+}
+
+.mail img {
+	padding-left: 10px;
+	padding-right: 20px;
+	height: 20px;
+}
+
+.logo {
+	max-width: inherit;
+}
+
+.media {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.media a {
+	margin-right: 15px;
+	background-clip: content-box;
+	background: linear-gradient(to top, #FFFFFF 80%, #000000 80%);
+}
+
+.menuWrp {
+	display: flex;
+	justify-content: flex-end;
+	margin-top: 20px;
+}
+
+.menuWrp .menuItem {
+    padding: 20px;
+    color: var(--dark-bg-color);
+    font-weight: bold;
+	margin-top: 10px;
+}
+
+.menuWrp .menuItem:hover {
+	background-clip: text;
+    background: linear-gradient(90deg, #f9d067, #faa681);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: none;
+}
+
+.menuWrp a:first-child {
+	background: linear-gradient(90deg, #f9d067, #faa681);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.button {
+	text-transform: uppercase;
+	border: 1px solid transparent;
+	border-radius: 50px;
+	font-weight: bold;
+	padding: 20px 50px;
+	margin: 10px 10px 20px 10px;
+}
+
+.contacts {
+	color: white;
+	background: linear-gradient(90deg, #f9d067, #faa681);
+}
+
+/* .menuWrp .сontacts:hover {
+	text-decoration: none;
+	color: black;
+} */
+
+body>div>a {
+	text-decoration: none;
+	color: black;
+}
+
+.projects {
+	letter-spacing: 3px;
+    font-size: larger;
+	color: black;
+	background-color: white;
+	margin-bottom: 200px;
+}
+
+.mainContainer {
+ 	background: #ffffff; 
+ 	background-image: url("../img/m7.jpeg"); 
+    background-image: linear-gradient(90deg, rgba(233, 93 ,80, 0.8), rgba(240, 170, 100, 0.8)), url('../img/m7.jpeg');
+
+}
+
+.mainWrp {
+	text-align: center;
+	color: white;
+}
+
+.mainWrp h1 {
+	font-style: italic;
+	font-size: 150px;
+	font-family: "Brush Script MT";
+	padding-top: 200px;
+}
+
+.mainWrp h2 {
+	padding-top: 15px;
+    padding-bottom: 30px;
+    letter-spacing: 4px;
+}
+
+.footerWrp h3 {
+	padding-top: 100px;
+	padding-bottom: 30px;
+}
+
+.uppercase {
+	text-transform: uppercase;
+}
+
+.footerWrp {
+	text-align: center;
+}
+
+.footerWrp span {
+	font-size: 30px;
+	color: darkgray;
+}
